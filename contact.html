@@ -44,7 +44,7 @@
     </header>
 
     <main>
-        <article id="contact">
+        <section id="contact"> <!--changed the articles to sections-->
             <h2>Our Contact Form</h2>
             <form action="https://httpbin.org/get" method="get">
                 <fieldset>
@@ -64,22 +64,23 @@
                         placeholder="Type your message here"></textarea>
                     </p>
                 </fieldset>
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button> <!--Updated this text to send-->
                 <button type="reset">Reset</button>
             </form>
-        </article>
+        </section>
 
-        <article id="location">
+        <section id="location">
             <h2>Our Location</h2>
             <address> 
                 555 Taco Temptation Lane, Suite T<br>
                 Kansas City, MO 55555-5555<br>
-            </address> 
-            <p>Phone number: <a href="tel:555-555-5555">555-555-5555</a> </p>
+                <br><br>
+                Phone: <a href="tel:+5555555555">555-555-5555</a>
+            </address> <!--added the phone number into the address element-->
             <p>
                 <a href="#">Back to Top</a>
             </p>
-        </article>
+        </section>
     </main>
     <hr>
     <footer>
